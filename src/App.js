@@ -10,7 +10,11 @@ function App() {
       {people.map((person) => {
         return <List data={person} key={person.id} />;
       })}
-      <button onClick={() => setPeople([])}>Clear all</button>
+      {people ? (
+        <button onClick={() => setPeople([])}>Clear all</button>
+      ) : (
+        <button onClick={() => setPeople(data)}>Bring all</button>
+      )}
     </div>
   );
 }
