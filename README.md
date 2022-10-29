@@ -1,3 +1,4 @@
-## Idea
+# BIRTHDAY REMİNDER WİTH REACT
 
-[https://uidesigndaily.com/](https://uidesigndaily.com/posts/sketch-birthdays-list-card-widget-day-1042)
+
+See [product](https://hyb-birthday-reminder.netlify.app/)
