@@ -10,7 +10,7 @@ function App() {
       {people.map((person) => {
         return <List data={person} key={person.id} />;
       })}
-      {people ? (
+      {people.length ? (
         <button onClick={() => setPeople([])}>Clear all</button>
       ) : (
         <button onClick={() => setPeople(data)}>Bring all</button>
